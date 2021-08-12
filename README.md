@@ -1,11 +1,26 @@
-## Making a plan
-1) Make a drawing of your app. Simple "wireframes"
-2) Once you have a drawing, name the HTML elements you'll need to realize your vision
-3) For each HTML element ask: Why do I need this?
-4) Once we know _why_ we need each element, think about how to implement the "Why" as a "How"
-5) Is there some state we need to initialize?
-6) Find all the 'events' (user clicks, form submit, etc) in your app. Ask one by one, "What happens when" for each of these events. Does any state change?
-7) Think about how to validate each of your steps
-8) Consider your data model. What objects will you be using? What are the key/value pairs? What arrays do you need? What needs to live in local storage?
-9) Consider what features _depend_ on what other features. Use this dependency logic to figure out what order to complete tasks.
+# LAB-04a-calculator
+
+## HTML Elements
+- 2 x <input>
+    - User can input two numbers they want the website to calculate.
+- A <p> tag for the operators(+, -, /, *)
+    - Communicates math to user.
+- a <p> tag for the output/result.
+    - Communicates calculated result.
+- 4 x button: +, /, *, and -.
+    - Tells website which operator to use when calculating.
+
+## Events
+- User inputs no numbers and clicks an operator button.
+    - Expected: No result.
+- User inputs one number and clicks an operator button.
+    - Expected: No result.
+- User Inputs two numbers:
+    - User clicks operator button.
+        - Expected: 
+            - JS injects the user selected operator into the operator <p> tag in html file.
+            - JS performs calculation on the two inputs using the user selected operator.
+            - JS injects calculated result into the output/result <p> tag in html file. 
+- Use `console.log()` to validate all steps.
+
 
