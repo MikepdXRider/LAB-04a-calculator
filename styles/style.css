@@ -111,3 +111,50 @@ footer {
     }
 
   }
+
+  .input{
+      margin: 15px;
+      border: 2px blue solid;
+      text-align: center;
+      height: 50px;
+  }
+
+  .operator-area, .result-area{
+      font-size: 2rem;
+      font-style: bold;
+  }
+
+  .button-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 30%;
+  }
+
+  .button{
+    background-color: lightgrey;
+    color: black;
+    border: 2px rgb(107, 107, 107) solid;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+  }
+
+  .button:hover{
+      cursor: pointer;
+      transform: scale(1.5) rotate(10deg);
+      transition: ease-in-out;
+      background-color: white;
+      color: red;
+      border: black 1px solid;
+  }
+
+  .result-area{
+    color: rgb(4, 156, 4);
+  }
+
+  .operator-area{
+      color: red;
+  }
+
+
+

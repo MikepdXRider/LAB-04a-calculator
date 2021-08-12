@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/home.css">
-    <title>Document</title>
+    <title>Calculator</title>
 </head>
 
 <body>
@@ -24,19 +24,20 @@
             <h2>
                 Welcome to Alchemy Calculator!
             </h2>
-            <input id="input-1" type="text" />
-            <p id="operator-area"></p>
-            <input id="input-2" type="text" />
+            <input id="input-1" class="input" type="text" />
+            <div id="operator-area" class="operator-area">+</div>
+            <input id="input-2" class="input" type="text" />
+            <div id="result-area" class="result-area">0</div>
             <section class="button-container">
-                <button>+</button>
-                <button>-</button>
-                <button>*</button>
-                <button>/</button>
+                <button class="button" id="plusButton">+</button>
+                <button class="button" id="minusButton">-</button>
+                <button class="button" id="timesButton">*</button>
+                <button class="button" id="divideButton">/</button>
             </section>
         </section>
     </main>
     <footer>
-        <div class="copy gutter-right">&copy; 2020 Alchemy Code Lab</div>
+        <div class="copy gutter-right">&copy; 2021 Alchemy Code Lab</div>
     </footer>
 
     <script type="module" src="./app.js"></script>

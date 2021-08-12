@@ -1,10 +1,11 @@
 // IMPORT MODULES under test here:
-import { add } from '../app.js';
-import { subtract } from '../app.js';
-import { multiply } from '../app.js';
-import { divide } from '../app.js';
+import { add } from '../utils.js';
+import { subtract } from '../utils.js';
+import { multiply } from '../utils.js';
+import { divide } from '../utils.js';
 
 const test = QUnit.test;
+
 
 // Addition
 test('Should take in 5 and 5 and return 10', (expect) => {
@@ -16,6 +17,7 @@ test('Should take in 5 and 5 and return 10', (expect) => {
     expect.equal(actual, expected);
 });
 
+
 // Subtraction
 test('Should take in 15 and 5 and return 10', (expect) => {
 
@@ -26,6 +28,7 @@ test('Should take in 15 and 5 and return 10', (expect) => {
     expect.equal(actual, expected);
 });
 
+
 // Multiplication
 test('Should take in 2 and 5 and return 10', (expect) => {
 
@@ -35,6 +38,7 @@ test('Should take in 2 and 5 and return 10', (expect) => {
     
     expect.equal(actual, expected);
 });
+
 
 // Division
 test('Should take in 20 and 2 and return 10', (expect) => {
