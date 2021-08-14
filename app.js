@@ -1,7 +1,7 @@
-import { add } from '../utils.js';
-import { subtract } from '../utils.js';
-import { multiply } from '../utils.js';
-import { divide } from '../utils.js';
+import { add } from './utils.js';
+import { subtract } from './utils.js';
+import { multiply } from './utils.js';
+import { divide } from './utils.js';
 
 // import functions and grab DOM elements
 
